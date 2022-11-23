@@ -1,4 +1,6 @@
-# 2420_week11_Lab
+# Usage
+Using timer and service file to automatically back up user home directory
+
 
 ## Create droplet in degital ocean  and connect in Window Terminal
 
