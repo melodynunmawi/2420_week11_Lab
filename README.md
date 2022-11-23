@@ -6,19 +6,19 @@
    Second put the desire file where your prefer location
    Third Login with ssh -i ~/.ssh/ed25519 root@ip_address
    
- ## create username and password ans sync to connect root@ip_address
+ ### create username and password ans sync to connect root@ip_address
  
    useradd -ms /bin/bash  name
    sudo passwd serverone
    sudo usermod -aG sudo serverone
    rsync --archive --chown=serverone:serverone ~/.ssh /home/serverone
 
-### check the SSH list
+#### check the SSH list
     cd .ssh
     cat id_ed25519.pub
     sudo vim authorized_keys
 
-#### ssh -i ~/.ssh/id_ed25519 back@24.199.91.198
+##### ssh -i ~/.ssh/id_ed25519 back@24.199.91.198
      rsync -aPv /home/one/testDir/ back@24.199.91.198:~/
       /home/one/test/
       
