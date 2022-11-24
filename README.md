@@ -20,11 +20,11 @@ Using timer and service file to automatically back up user home directory
     cat id_ed25519.pub
     sudo vim authorized_keys
 
-## ssh -i ~/.ssh/id_ed25519 back@24.199.91.198
-     rsync -aPv /home/one/testDir/ back@24.199.91.198:~/
+## ssh -i ~/.ssh/id_ed25519 user_name@ip_address
+     rsync -aPv /home/one/testDir/ user_name@ip_address:~/
       /home/one/test/
       
-     rsync -aPv /home/serverone/testDir/ back@24.199.91.198:~/
+     rsync -aPv /home/serverone/testDir/ user_name@ip_address:~/
      sudo cp backup/script /opt/backup
      sudo cp backup/backu.* /etc/systemd.system/
      sudo chmod +x /opt/backup/backup.script
