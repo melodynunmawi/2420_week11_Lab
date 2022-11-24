@@ -1,11 +1,11 @@
 # Usage
-Using timer and service file to automatically back up user home directory
+  Using timer and service file to automatically back up user home directory
 
 
 ## Create droplet in degital ocean  and connect in Window Terminal
-   First need to create SSH key in terminal  $ ssh-keygen -t ed25519 -C "example@gmail.com".
-   Second put the desire file where your prefer location.
-   Third Login with ssh -i ~/.ssh/ed25519 root@ip_address .
+    First need to create SSH key in terminal  $ ssh-keygen -t ed25519 -C "example@gmail.com".
+    Second put the desire file where your prefer location.
+    Third Login with ssh -i ~/.ssh/ed25519 root@ip_address .
    
  ## create username and password ans sync to connect root@ip_address
     useradd -ms /bin/bash name.
