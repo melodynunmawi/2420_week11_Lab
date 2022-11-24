@@ -52,3 +52,8 @@ Using timer and service file to automatically back up user home directory
 
       /etc/systemd/system
       sudo vim /opt/backup/backup
+      
+ ## Output
+![image](https://user-images.githubusercontent.com/59521385/203682653-bb04c0d4-1d97-4f78-86db-093001e68331.png)
+
+
