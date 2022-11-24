@@ -1,0 +1,4 @@
+#!bin/bash
+rsync -aPv /home/serverone/testDir/ back@143.198.107.220:~/backup
+
+

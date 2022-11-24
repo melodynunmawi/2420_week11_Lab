@@ -1,0 +1,2 @@
+#!bin/bash
+curl -s wtttr.in/Vancouver -o /etc/mot:d

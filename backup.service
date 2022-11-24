@@ -1,0 +1,9 @@
+[Unit]
+Description=use rsync and -aPv to get a backup
+
+[Service]
+ExecStart=/opt/backup/backup
+
+[Install]
+WantedBy=multi-user.target
+
